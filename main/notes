@@ -1,0 +1,10 @@
+docker-compose exec main sh
+
+php artisan make:migration create_product_table
+
+docker-compose exec main_db sh
+
+mysql -u root -p
+Password: root
+
+show databases;

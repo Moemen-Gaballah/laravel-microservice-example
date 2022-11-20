@@ -1,0 +1,2 @@
+docker-compose exec admin sh
+php artisan migrate
